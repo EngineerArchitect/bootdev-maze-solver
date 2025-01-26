@@ -4,7 +4,7 @@ import time, random
 
 
 class Maze:
-    def __init__(self,x1:int,y1:int,num_rows:int,num_cols:int,cell_size_x:int,cell_size_y:int,win:Window):
+    def __init__(self,x1:int,y1:int,num_rows:int,num_cols:int,cell_size_x:int,cell_size_y:int,win:Window=None):
         self._cells = []
         self._x1 = x1
         self._y1 = y1
